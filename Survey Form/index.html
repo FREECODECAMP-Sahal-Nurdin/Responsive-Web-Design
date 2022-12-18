@@ -19,19 +19,21 @@
       </header>
       <form id="survey-form">
         <div class="form-group">
-          <label id="name-label" for="name">Name</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            class="form-control"
-            placeholder="Enter your name"
-            required />
+          <label id="name-label" for="name"
+            >Name
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required
+          /></label>
         </div>
         <div class="form-group">
-          <label id="email-label" for="email"></label>
+          <label id="email-label" for="email">Enter your Email</label>
           <input
-            type="text"
+            type="email"
             name="email"
             id="email"
             class="fom-control"
@@ -43,7 +45,7 @@
             >"Age" <span class="clue">(optional)</span></label
           >
           <input
-            type="text"
+            type="number"
             name="age"
             id="number"
             class=""
@@ -53,7 +55,7 @@
         </div>
         <div class="form-group">
           <p>Which option best describes your current role?</p>
-          <select name="" id="">
+          <select name="" id="dropdown">
             <option disabled selected value>Select current role</option>
             <option value="student">Student</option>
             <option value="job">Full time job</option>
@@ -94,7 +96,7 @@
         </div>
         <div class="form-group">
           <p>What is your favorite feature of freeCodeCamp?</p>
-          <select name="" id="">
+          <select name="" id="dropdown">
             <option disabled selected value>Select an option</option>
             <option value="">Challenges</option>
             <option value="">Projects</option>
