@@ -1,0 +1,11 @@
+/** @format */
+
+* {
+  box-sizing: inherit;
+}
+
+html,
+::before,
+::after {
+  box-sizing: border-box;
+}
